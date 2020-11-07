@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Black&White</title>
+
+    <style>
+      html,
+      body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        overflow: hidden;
+      }
+
+      #imgWrapper {
+        background-color: white;
+      }
+
+      #imgWrapper > img {
+        width: 100%;
+        mix-blend-mode: luminosity;
+      }
+
+      #imgWrapper > img:hover {
+        mix-blend-mode: normal;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="imgWrapper">
+      <img src="image/milkyway.jpg" />
+    </div>
+  </body>
+</html>

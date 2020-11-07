@@ -1,2 +1,3 @@
 # InteractiveWebLearning
-인터랙티브 웹 배우기
+
+> 나는 CSS에 대해서 1도 모르고 있었다
